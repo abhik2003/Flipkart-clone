@@ -8,7 +8,8 @@ header{
     width: 100vw;
 }
 #main{
-    padding-top: 12px;
+    padding: 12px 3px;
+    border-bottom: 1.2px solid #d4d6d9;
 }
 .brand{
     width: 70%;
@@ -33,7 +34,14 @@ ul.horizontal{
 }
 ul.horizontal>li{
     display: inline;
-    padding: 0px max(calc(9.5vw - 75px),15px);
+    padding: 0px 43px;
+    font-size: 15px;
+}
+@media screen and (max-width:1000px) {
+    ul.horizontal>li{
+        display: inline;
+        padding: 0px 5px;
+    }
 }
 .input-search{
     min-width: 370px;
@@ -135,4 +143,23 @@ ul.horizontal>li{
     text-align: center;
     vertical-align: top;
     
+}
+.slide{
+    display: none;
+    margin: auto;
+}
+.img-slide{
+    width:80vw;
+}
+#offer-img1{
+    border-radius: 7px;
+    height: 110px;
+    box-shadow: 0 0 5px rgba(112, 111, 111, 0.616);
+}
+.main-div{
+    text-align:center;
+    margin: 20px 9.75vw;
+    background-color:white;
+    box-shadow:0 0 5px rgba(155, 154, 154, 0.459);
+    padding: 15px;
 }
