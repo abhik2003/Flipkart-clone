@@ -1,0 +1,138 @@
+.header{
+    background-color: #2874f0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+header{
+    
+    width: 100vw;
+}
+#main{
+    padding-top: 12px;
+}
+.brand{
+    width: 70%;
+}
+#logo{
+    width: 100px;
+}
+footer{
+    height: calc(100px - 20px);
+    background: #172337;
+    color: aliceblue;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul.horizontal{
+    list-style: none;
+    justify-items: stretch;
+    padding-left: 0;
+}
+ul.horizontal>li{
+    display: inline;
+    padding: 0px max(calc(9.5vw - 75px),15px);
+}
+.input-search{
+    min-width: 370px;
+    width: 28vw;
+    border-radius: 0;
+    margin-left: 10px;
+}
+.submenu{
+    display: none;
+    box-shadow:  0 0 10px rgb(156, 152, 152);
+    border-radius: 4px;
+}
+.submenu>ul{
+    background-color: white;
+    padding: 0;
+    margin-bottom: 0;
+    
+}
+.submenu>ul>li{
+    color: black;
+    font-size: 14px;
+    padding: 8px 20px;
+    padding-right: 40px;
+}
+.submenu>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+.li1{
+    display: block;
+    font-size: 17px;
+    margin: 0;
+    padding: 3px 10px;
+    color: white;
+}
+
+#dropdown:hover .submenu{
+    display: block;
+     position: absolute;
+     margin-top: 5px;
+     margin-left: -57px;
+     font-weight: 200;
+ }
+ #dropdown:hover{
+    font-weight: 700;
+ }
+ #hr-dropdown{
+     padding: 0;
+     margin: 0;
+     opacity: 0.073;
+     height: 0.08px;
+ }
+ #dropdown{
+     list-style-type: none;
+ }
+#search-btn{
+    border: none;
+    background-color: white;
+    height: 30px;
+    position: relative;
+    left: -43px;
+    top: 2px;
+}
+#login{
+    margin-left: 2vw;
+    padding:0 min(55px,2vw);
+    border-radius: 0;
+    border:0;color:#2874f0;
+    background-color:white;
+    height:30px;
+    position:relative;
+    top:2px;
+    font-weight: 700;
+    box-shadow: 0 0 3px rgb(139, 139, 139);
+    border-radius: 1px;
+}
+.catalog{
+    width: 64px;
+}
+#t1{
+    border-collapse: separate;
+    border-spacing: 100px;
+    
+}
+#t1>td{
+    width: 7.13vw;
+    text-align: center;
+}
+#t1>td>a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-weight: 530;
+}
+#t1>td>a:hover{
+    color: rgb(15, 95, 241);
+}
+#t1>td{
+    text-align: center;
+    vertical-align: top;
+    
+}
