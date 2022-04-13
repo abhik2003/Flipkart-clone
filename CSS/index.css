@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Noto+Serif:wght@700&family=PT+Serif:wght@400;700&display=swap');
 .header{
     background-color: #2874f0;
     padding-top: 15px;
@@ -125,28 +126,32 @@ ul.horizontal>li{
 .catalog{
     width: 64px;
 }
-#t1{
+.t1{
     border-collapse: separate;
     border-spacing: 100px;
     
 }
-#t1>td{
+.t1>td{
     width: 7.13vw;
     text-align: center;
+    vertical-align: middle;
 }
-#t1>td>a{
+.t1>td>a{
     text-decoration: none;
     font-size: 14px;
     color: black;
     font-weight: 530;
 }
-#t1>td>a:hover{
+.t1>td>a:hover{
     color: rgb(15, 95, 241);
 }
-#t1>td{
+.t1>td{
     text-align: center;
     vertical-align: top;
     
+}
+#table2-row1>td{
+    vertical-align: middle;
 }
 .slide{
     display: none;
@@ -160,7 +165,7 @@ ul.horizontal>li{
     box-shadow: 0 0 5px rgba(112, 111, 111, 0.616);
     width: 70vw;
 }
-.main-div{
+.content-div{
     text-align:center;
     margin: 20px 9.75vw;
     background-color:white;
@@ -173,4 +178,33 @@ ul.horizontal>li{
 #content{
     height: 2000px;
     background-color: #f1f3f6;
+}
+.items1{
+    width: 9vw;
+}
+.btn-class-blue{
+    background-color: #2874f0;
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+    font-weight: 400;
+    padding: 8px 12px;
+    font-size: 11px;
+}
+.green-text{
+    color: #409244;
+    font-size: 14px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.gray-text{
+    color: #929292;
+    font-size: 12px;
+}
+.items1:hover{
+    transform: scale(1.04);
+}
+.bold-text{
+    font-size: 14px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
 }
