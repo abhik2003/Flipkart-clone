@@ -20,11 +20,7 @@ function slide_change(y){
 setInterval("slide_change(1)",3000);
 
 
-let elem=document.getElementById('heading');
-window.addEventListener('scroll',function(){
-    if(window.pageYOffset>0){
-        elem.classList.add('sticky');
-    }
-    else
-        elem.classList.remove('sticky');
-});
+var height1=document.getElementById("heading").offsetHeight;
+height1+=12;
+document.getElementById("main").style.paddingTop=height1+"px";
+console.log(height1);
