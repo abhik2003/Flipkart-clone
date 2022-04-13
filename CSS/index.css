@@ -7,6 +7,10 @@ header{
     
     width: 100vw;
 }
+.sticky{
+    position: fixed;
+    top: 0;
+}
 #main{
     padding: 12px 3px;
     border-bottom: 1.2px solid #d4d6d9;
@@ -153,8 +157,8 @@ ul.horizontal>li{
 }
 #offer-img1{
     border-radius: 7px;
-    height: 110px;
     box-shadow: 0 0 5px rgba(112, 111, 111, 0.616);
+    width: 70vw;
 }
 .main-div{
     text-align:center;
@@ -166,6 +170,7 @@ ul.horizontal>li{
 .blue{
     color: #2874f0;
 }
-.icon1{
-    font-size: 1px;
+#content{
+    height: 2000px;
+    background-color: #f1f3f6;
 }

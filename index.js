@@ -17,3 +17,13 @@ function slide_change(y){
     x++;
 };
 setInterval("slide_change(x)",3000);
+
+
+let elem=document.getElementById('heading');
+window.addEventListener('scroll',function(){
+    if(window.pageYOffset>0){
+        elem.classList.add('sticky');
+    }
+    else
+        elem.classList.remove('sticky');
+});
