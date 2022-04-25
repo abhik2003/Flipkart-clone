@@ -183,6 +183,15 @@ ul.horizontal>li{
 .items1{
     width: 9vw;
 }
+.items1:hover{
+    transform: scale(1.04);
+}
+.items2:hover{
+    transform: scale(1.04);
+}
+.items2{
+    height: 150px;
+}
 .btn-class-blue{
     background-color: #2874f0;
     border: 0px;
@@ -200,9 +209,6 @@ ul.horizontal>li{
 .gray-text{
     color: #929292;
     font-size: 12px;
-}
-.items1:hover{
-    transform: scale(1.04);
 }
 .bold-text{
     font-size: 14px;
