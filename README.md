@@ -1,2 +1,2 @@
 # Flipkart-clone
-This is a cloning project. Here I have cloned Flipkart. This is for my practice. There is no in intention to copy Flipkart.
+This is a clone of the Flipkart's home page. This is completely built with HTML, CSS and JavaScript
